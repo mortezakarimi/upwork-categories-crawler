@@ -1,0 +1,40 @@
+update.go:85: cannot change mount namespace according to change mount (/var/lib/snapd/hostfs/usr/share/gimp/2.0/help /usr/share/gimp/2.0/help none bind,ro 0 0): cannot open directory "/var/lib": permission denied
+update.go:85: cannot change mount namespace according to change mount (/var/lib/snapd/hostfs/usr/share/gtk-doc /usr/share/gtk-doc none bind,ro 0 0): cannot open directory "/var/lib": permission denied
+update.go:85: cannot change mount namespace according to change mount (/var/lib/snapd/hostfs/usr/share/libreoffice/help /usr/share/libreoffice/help none bind,ro 0 0): cannot open directory "/var/lib": permission denied
+update.go:85: cannot change mount namespace according to change mount (/var/lib/snapd/hostfs/usr/share/xubuntu-docs /usr/share/xubuntu-docs none bind,ro 0 0): cannot open directory "/var/lib": permission denied
+1677038084436	geckodriver	INFO	Listening on 127.0.0.1:56545
+1677038085090	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "--headless" "--disable-gpu" "--disable-dev-shm-usage" "--remote-debugging-port" "37889" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileSUcflf"
+*** You are running in headless mode.
+Gtk-Message: 07:24:45.118: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1677038085753	Marionette	INFO	Marionette enabled
+1677038085757	Marionette	INFO	Listening on port 36277
+Read port: 36277
+console.error: "Warning: unrecognized command line flag -disable-gpu\n"
+WebDriver BiDi listening on ws://127.0.0.1:37889
+1677038085907	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileSUcflf/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:37889/devtools/browser/8a926054-2552-4c06-9b2f-01f9f966dde4
+1677038092953	Marionette	INFO	Stopped listening on port 36277
+1677038147560	geckodriver	INFO	Listening on 127.0.0.1:37827
+1677038147848	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "--headless" "--disable-gpu" "--disable-dev-shm-usage" "--remote-debugging-port" "45725" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileplcb2O"
+*** You are running in headless mode.
+Gtk-Message: 07:25:47.877: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1677038148133	Marionette	INFO	Marionette enabled
+1677038148137	Marionette	INFO	Listening on port 33781
+Read port: 33781
+console.error: "Warning: unrecognized command line flag -disable-gpu\n"
+WebDriver BiDi listening on ws://127.0.0.1:45725
+1677038148243	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileplcb2O/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:45725/devtools/browser/eae7c667-fd13-4db0-b5c3-b883d9381f80
+1677038154071	Marionette	INFO	Stopped listening on port 33781
