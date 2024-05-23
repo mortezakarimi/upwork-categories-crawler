@@ -1,5 +1,5 @@
 cchardet==2.1.7
 lxml==4.9.4
 selenium~=4.21.0
-pandas~=1.5.2
+pandas~=2.2.2
 beautifulsoup4~=4.12.3
